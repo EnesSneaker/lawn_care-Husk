@@ -20,7 +20,7 @@ export default function StaticCarousel() {
                 height={500}
                 width={500}
                 quality={100}
-                style={{ objectFit: "contain" }}
+                style={{ objectFit: "cover" }}
             />
             <Image
                 src="/husko3_modi.png"
@@ -28,7 +28,7 @@ export default function StaticCarousel() {
                 height={500}
                 width={500}
                 quality={100}
-                style={{ objectFit: "contain" }}
+                style={{ objectFit: "cover" }}
             />
             <Image
                 src="/husko4.png"
@@ -36,7 +36,7 @@ export default function StaticCarousel() {
                 height={500}
                 width={500}
                 quality={100}
-                style={{ objectFit: "contain" }}
+                style={{ objectFit: "cover" }}
             />
             <Image
                 src="/husko5.png"
@@ -44,7 +44,7 @@ export default function StaticCarousel() {
                 height={500}
                 width={500}
                 quality={100}
-                style={{ objectFit: "contain" }}
+                style={{ objectFit: "cover" }}
             />
         </Carousel>
     );

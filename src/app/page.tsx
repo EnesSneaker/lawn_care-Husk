@@ -5,7 +5,12 @@ import Contact from "./components/contact";
 export default function Home() {
     return (
         <>
-            <div style={{ position: "relative", height: "75vh" }}>
+            <div
+                style={{
+                    position: "relative",
+                    height: "calc(75vh - 16px)",
+                }}
+            >
                 <StaticCarousel />
             </div>
             <div className="flex justify-center mt-8">
