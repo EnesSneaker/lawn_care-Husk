@@ -6,7 +6,7 @@ export default function Contact() {
                     Contact Us
                 </h2>
                 <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-                    Reach out to us and let's turn your garden dreams into a
+                    Reach out to us and lets turn your garden dreams into a
                     stunning reality.
                 </p>
                 <form action="#" className="space-y-8">

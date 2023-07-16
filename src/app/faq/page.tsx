@@ -64,7 +64,7 @@ export default function Faq() {
                             <div className="px-4 pb-5 sm:px-6 sm:pb-6">
                                 <p>
                                     Proper watering is crucial for a healthy
-                                    lawn. In general, it's recommended to water
+                                    lawn. In general, it is recommended to water
                                     deeply but infrequently. Water your lawn 1-2
                                     times per week, providing around 1 inch of
                                     water each time. Adjust the frequency based
