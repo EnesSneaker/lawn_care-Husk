@@ -11,6 +11,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'header': '#87A878',
+        'secondary-font-color': '#FFEEE2',
+        'primary-button': '#143109',
+        'secondary-button': '#FFEEE2'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

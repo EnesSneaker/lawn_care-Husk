@@ -3,7 +3,7 @@ import { FaPhone } from "react-icons/fa";
 export default function Header() {
     return (
         <>
-            <nav className="bg-green-500 border-gray-200 dark:bg-gray-800">
+            <nav className="bg-header border-gray-200 dark:bg-gray-800">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
                     <a href="/" className="flex items-center">
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -13,15 +13,23 @@ export default function Header() {
                     <div className="flex items-center">
                         <a
                             href="tel:5541251234"
-                            className="mr-6 text-sm dark:text-white hover:underline flex items-center"
+                            className="mr-3 text-sm dark:text-white hover:underline flex items-center"
                         >
-                            <span className="ml-1">(555) 412-1234</span>
-                            <FaPhone className="mr-1" />
+                            <span>(555) 412-1234</span>
+                        </a>
+                        <div className="mr-3 text-sm dark:text-white hover:underline flex items-center">
+                            |
+                        </div>
+                        <a
+                            href="email:husko@business.com"
+                            className="mr-3 text-sm dark:text-white hover:underline flex items-center"
+                        >
+                            <span>husko@business.com</span>
                         </a>
                     </div>
                 </div>
             </nav>
-            <nav className="bg-green-200 dark:bg-gray-500">
+            <nav className="bg-secondary-font-color dark:bg-gray-500">
                 <div className="max-w-screen-xl px-4 py-3 mx-auto">
                     <div className="flex items-center">
                         <ul className="flex flex-row font-medium mt-0 mr-6 space-x-8 text-sm">
@@ -36,14 +44,6 @@ export default function Header() {
                             </li>
                             <li>
                                 <a
-                                    href="/features"
-                                    className="text-gray-900 dark:text-white hover:underline"
-                                >
-                                    Features
-                                </a>
-                            </li>
-                            <li>
-                                <a
                                     href="/gallery"
                                     className="text-gray-900 dark:text-white hover:underline"
                                 >
@@ -52,10 +52,18 @@ export default function Header() {
                             </li>
                             <li>
                                 <a
-                                    href="/contact"
+                                    href="/about"
                                     className="text-gray-900 dark:text-white hover:underline"
                                 >
-                                    Contact
+                                    About me
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="/faq"
+                                    className="text-gray-900 dark:text-white hover:underline"
+                                >
+                                    FAQ
                                 </a>
                             </li>
                         </ul>

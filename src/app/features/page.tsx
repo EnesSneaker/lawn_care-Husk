@@ -58,7 +58,8 @@ export default function Features() {
             <section className="bg-white dark:bg-gray-900">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                        Lush lawns. Expert care. Guaranteed.
+                        Beautiful landscapes. Professional touch. Ensured
+                        satisfaction.
                     </h1>
                     <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
                         Experience the difference with our exceptional lawn care
@@ -68,8 +69,6 @@ export default function Features() {
                     </p>
                 </div>
             </section>
-            {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-3"> */}
-
             <div className="grid justify-items-center grid-cols-1 md:grid-cols-2 gap-3 ">
                 {workoffer.map((workoffer: Workoffer) => {
                     return (

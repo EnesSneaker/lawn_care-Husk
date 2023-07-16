@@ -1,17 +1,21 @@
 import StaticCarousel from "./components/carousel";
 import DefaultCard from "./components/card";
 import Contact from "./components/contact";
+import HeroSection from "./components/hero-section";
 
 export default function Home() {
     return (
         <>
-            <div
+            {/* <div
                 style={{
                     position: "relative",
                     height: "calc(75vh - 16px)",
                 }}
             >
                 <StaticCarousel />
+            </div> */}
+            <div style={{ height: "30%" }}>
+                <HeroSection />
             </div>
             <div className="flex justify-center mt-8">
                 <h1 className="mb-2 text-2xl font-bold">
