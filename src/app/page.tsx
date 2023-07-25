@@ -6,14 +6,6 @@ import HeroSection from "./components/hero-section";
 export default function Home() {
     return (
         <>
-            {/* <div
-                style={{
-                    position: "relative",
-                    height: "calc(75vh - 16px)",
-                }}
-            >
-                <StaticCarousel />
-            </div> */}
             <div style={{ height: "30%" }}>
                 <HeroSection />
             </div>
