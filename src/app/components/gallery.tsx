@@ -13,14 +13,19 @@ import image6 from "../assets/husko-test6.jpg";
 
 export default function Gallery() {
     const [width, setWidth] = useState(0);
-    const carousel = useRef();
+    const carousel = useRef<HTMLDivElement>(null);
+
+    const deployCarousel = carousel.current;
 
     const images = [image1, image2, image3, image4, image5, image6];
     let key = 0;
 
     useEffect(() => {
-        console.log(carousel.current);
-        setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
+        if (carousel.current) {
+            setWidth(
+                carousel.current.scrollWidth - carousel.current.offsetWidth
+            );
+        }
     }, []);
 
     return (
