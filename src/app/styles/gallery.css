@@ -13,6 +13,7 @@
 
 .inner-carousel{
     display: inline-flex;
+    gap: 10px;
 }
 
 .carousel{
@@ -24,4 +25,15 @@
     margin: 0 20%;
 }
 
+@media screen and (max-width: 768px) {
+    .Gallery {
+        /* Reduce the left and right margins on smaller screens */
+        margin: 0 0%;
+    }
+
+    .item {
+        /* Adjust the minimum width to fit on smaller screens */
+        min-width: 80%;
+    }
+}
 
