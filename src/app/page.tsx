@@ -15,7 +15,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center mt-8">
                 <h1 className="mb-2 text-2xl font-bold">
-                    <span className="inline-block pb-1 border-b-2 border-gray-800 ">
+                    <span className="inline-block pb-3 border-b-2 border-gray-800 ">
                         Does Your Garden Need Some Shape?
                     </span>
                 </h1>

@@ -29,7 +29,7 @@ export default function HeroSection() {
                         </div>
                         <div className="w-full sm:w-auto">
                             <a
-                                href="/gallery"
+                                href="#gallery"
                                 className="block w-full rounded bg-secondary-button px-12 py-3 text-sm font-medium shadow active:bg-opacity-10"
                             >
                                 Gallery
