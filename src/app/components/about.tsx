@@ -7,18 +7,19 @@ export default function About() {
                         About Us
                     </h1>
                     <p className="font-normal text-base leading-6 text-gray-600 ">
-                        Welcome to Alan precise Lawn Care! We are passionate
-                        about creating and maintaining beautiful, healthy lawns.
-                        With years of experience, our dedicated team delivers
-                        top-quality lawn care services tailored to your needs.
-                        From mowing to fertilizing, we use the latest techniques
-                        and equipment for exceptional results. Customer
-                        satisfaction is our priority, and we build strong
-                        relationships based on trust and reliability. Experience
-                        professionalism, attention to detail, and a genuine
-                        passion for what we do. Let us bring out the natural
-                        beauty of your outdoor space. Contact us today for a
-                        consultation and elevate your lawn care experience.
+                        Welcome to Alan&apos;s precise Lawn Care! We are
+                        passionate about creating and maintaining beautiful,
+                        healthy lawns. With years of experience, our dedicated
+                        team delivers top-quality lawn care services tailored to
+                        your needs. From mowing to fertilizing, we use the
+                        latest techniques and equipment for exceptional results.
+                        Customer satisfaction is our priority, and we build
+                        strong relationships based on trust and reliability.
+                        Experience professionalism, attention to detail, and a
+                        genuine passion for what we do. Let us bring out the
+                        natural beauty of your outdoor space. Contact us today
+                        for a consultation and elevate your lawn care
+                        experience.
                     </p>
                 </div>
                 <div className="w-full lg:w-8/12 ">

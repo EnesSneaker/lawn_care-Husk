@@ -7,7 +7,7 @@ export default function Header() {
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
                     <a href="/" className="flex items-center">
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                            Huskos Lawn Care
+                            Alan&apos;s Precise Lawn Care
                         </span>
                     </a>
                     <div className="flex items-center">
@@ -15,16 +15,16 @@ export default function Header() {
                             href="tel:5541251234"
                             className="mr-3 text-sm dark:text-white hover:underline flex items-center"
                         >
-                            <span>(555) 412-1234</span>
+                            <span>(973) 270-7126</span>
                         </a>
                         <div className="mr-3 text-sm dark:text-white hover:underline flex items-center">
                             |
                         </div>
                         <a
-                            href="email:husko@business.com"
+                            href="email:alanspreciselawn@gmail.com"
                             className="mr-3 text-sm dark:text-white hover:underline flex items-center"
                         >
-                            <span>husko@business.com</span>
+                            <span>alanspreciselawn@gmail.com</span>
                         </a>
                     </div>
                 </div>

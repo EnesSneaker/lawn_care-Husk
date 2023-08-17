@@ -113,8 +113,8 @@ export default function DefaultCard() {
         {
             id: 5,
             href: "/features",
-            first: "Irrigation Systems",
-            second: "Ensure your garden receives the right amount of water with our professional irrigation system installations and repairs. We'll help you conserve water, optimize plant health, and achieve a sustainable and efficient watering solution.",
+            first: "Yard Clean-Ups",
+            second: "Revitalize your outdoor space with our expert yard clean-up services. From clearing debris to trimming, we'll transform your yard into a pristine oasis. Get a fresh start today!",
             picture: "/irrigation_system_pic.jpg",
         },
         {

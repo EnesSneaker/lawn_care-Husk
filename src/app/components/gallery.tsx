@@ -30,7 +30,7 @@ export default function Gallery() {
 
     return (
         <>
-            <div id="gallery" className="text-center text-4xl my-4">
+            <div id="gallery" className=" mt-8 text-center text-4xl my-4">
                 Gallery
             </div>
             <motion.div

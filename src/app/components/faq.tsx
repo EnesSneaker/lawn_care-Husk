@@ -121,7 +121,7 @@ export default function Faq() {
                 ))}
             </motion.div>
             <p className="text-center text-gray-600 textbase mt-9">
-                Didnt find the answer you are looking for?{" "}
+                Didn&apos;t find the answer you are looking for?{" "}
                 <a
                     href="/#contact"
                     title=""

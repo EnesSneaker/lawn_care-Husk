@@ -6,6 +6,11 @@ import Faq from "./components/faq";
 import About from "./components/about";
 import Gallery from "./components/gallery";
 import "./styles/gallery.css";
+import Company from "./components/company-section";
+import ThanksSection from "./components/specialThanks";
+import WorkWith from "./components/workWith";
+import SocialProof from "./components/socialProof";
+import Testimonials from "./components/testimonials";
 
 export default function Home() {
     return (
@@ -24,10 +29,25 @@ export default function Home() {
                 <DefaultCard />
             </div>
             <div className="mt-8">
-                <About />
+                <Company />
+            </div>
+            <div className="mt-8">
+                <ThanksSection />
             </div>
             <div className="Gallery mt-8">
                 <Gallery />
+            </div>
+            <div className="mt-8">
+                <About />
+            </div>
+            <div className="mt-8">
+                <WorkWith />
+            </div>
+            <div className="mt-8">
+                <SocialProof />
+            </div>
+            <div className="mt-8">
+                <Testimonials />
             </div>
             <div className="mt-8">
                 <Faq />
