@@ -47,12 +47,12 @@ const Testimonials = () => {
                                 Picture-Perfect Lawn Enthusiast
                             </h3>
                             <p className="my-4">
-                                &quot;I can&apos;t thank Alan&apos;s precise LLC
-                                enough for the incredible job they&apos;ve done
-                                with my lawn. The precision of their work is
-                                astounding. They&apos;re more than just
-                                professionals, they&apos;re artists. My lawn now
-                                stands out as a masterpiece.&quot;
+                                &quot;I can&apos;t thank Alan&apos;s precise
+                                lawn care LLC enough for the incredible job
+                                they&apos;ve done with my lawn. The precision of
+                                their work is astounding. They&apos;re more than
+                                just professionals, they&apos;re artists. My
+                                lawn now stands out as a masterpiece.&quot;
                             </p>
                         </blockquote>
                         <figcaption className="flex justify-center items-center space-x-3">
@@ -75,8 +75,8 @@ const Testimonials = () => {
                                 Stress-Free Homeowner
                             </h3>
                             <p className="my-4">
-                                &quot;The peace of mind Alan&apos;s precise LLC
-                                has given me is priceless. From their
+                                &quot;The peace of mind Alan&apos;s precise lawn
+                                care LLC has given me is priceless. From their
                                 budget-friendly prices to the impeccable
                                 maintenance, they&apos;ve taken away the hassle
                                 of lawn care. My weekends are now mine to enjoy
@@ -104,11 +104,11 @@ const Testimonials = () => {
                             </h3>
                             <p className="my-4">
                                 &quot;I&apos;m proud to say that I&apos;ve been
-                                a loyal customer of Alan&apos;s precise LLC for
-                                years. Their consistent, high-quality service
-                                and genuine care for my lawn have earned my
-                                trust. With them, I know my lawn is in the best
-                                hands.&quot;
+                                a loyal customer of Alan&apos;s precise lawn
+                                care LLC for years. Their consistent,
+                                high-quality service and genuine care for my
+                                lawn have earned my trust. With them, I know my
+                                lawn is in the best hands.&quot;
                             </p>
                         </blockquote>
                         <figcaption className="flex justify-center items-center space-x-3">
