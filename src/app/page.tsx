@@ -34,7 +34,7 @@ export default function Home() {
             <div className="mt-8">
                 <ThanksSection />
             </div>
-            <div className="mt-8">
+            <div className="md:Gallery sm:mx-0 mt-8">
                 <Gallery />
             </div>
             <div className="mt-8">

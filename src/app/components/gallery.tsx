@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
-import "../styles/gallery.css";
+//import "../styles/gallery.css";
 import image1 from "../assets/husko-test1.jpg";
 import image2 from "../assets/husko-test2.jpg";
 import image3 from "../assets/husko-test3.jpg";
@@ -35,19 +35,22 @@ export default function Gallery() {
             </div>
             <motion.div
                 ref={carousel}
-                className="carousel"
+                className="cursor-grab overflow-hidden"
                 whileTap={{ cursor: "grabbing" }}
             >
                 <motion.div
                     drag="x"
                     dragConstraints={{ right: 0, left: -width }}
-                    className="inner-carousel"
+                    className="inline-flex gap-10"
                 >
                     {images.map((image) => {
                         return (
-                            <motion.div className="item" key={key++}>
+                            <motion.div
+                                className="min-h-[40rem] min-w-[30rem] p-10"
+                                key={key++}
+                            >
                                 <Image
-                                    className="item-img"
+                                    className="rounded-[2rem] pointer-events-none"
                                     src={image}
                                     alt="..."
                                 />
