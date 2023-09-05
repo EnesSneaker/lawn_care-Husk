@@ -26,6 +26,7 @@ const Contact = () => {
     return (
         <form
             className="py-10 px-4 mx-auto md:px-6 lg:px-8 max-w-7xl"
+            id="contact"
             onSubmit={handleOnSubmit}
         >
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
