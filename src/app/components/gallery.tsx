@@ -4,12 +4,13 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 //import "../styles/gallery.css";
-import image1 from "../assets/husko-test1.jpg";
-import image2 from "../assets/husko-test2.jpg";
-import image3 from "../assets/husko-test3.jpg";
-import image4 from "../assets/husko-test4.jpg";
-import image5 from "../assets/husko-test5.jpg";
-import image6 from "../assets/husko-test6.jpg";
+import image1 from "../assets/Husko1modi.jpg";
+import image2 from "../assets/Husko2modi.jpg";
+import image3 from "../assets/Husko3modi.jpg";
+import image4 from "../assets/Husko4modi.jpg";
+import image5 from "../assets/Husko5modi.jpg";
+import image6 from "../assets/Husko6modi.jpg";
+import image7 from "../assets/Husko7modi.jpg";
 
 export default function Gallery() {
     const [width, setWidth] = useState(0);
@@ -17,7 +18,7 @@ export default function Gallery() {
 
     const deployCarousel = carousel.current;
 
-    const images = [image1, image2, image3, image4, image5, image6];
+    const images = [image1, image2, image5, image7, image6, image4];
     let key = 0;
 
     useEffect(() => {

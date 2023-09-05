@@ -9,7 +9,7 @@ export default function DefaultFooter() {
                 <span className="text-sm text-black-500 sm:text-center">
                     © 2023{" "}
                     <a href="https://flowbite.com/" className="hover:underline">
-                        Huskos Lawn Care™
+                        Alan&apos;s Lawn Care™
                     </a>
                     . All Rights Reserved.
                 </span>
