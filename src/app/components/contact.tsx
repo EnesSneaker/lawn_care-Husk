@@ -1,26 +1,26 @@
 "use client";
 
 import { useState } from "react";
-import { sendContactForm } from "../../../lib/api";
 
-export default function Contact() {
+const Contact = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
 
-    const handleOnSubmit = async (event: any) => {
-        event.preventDefault();
+    const handleOnSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+
         const formData = {
-            name,
-            email,
-            message,
+            name: name,
+            email: email,
+            message: message,
         };
 
-        try {
-            await sendContactForm(formData);
-        } catch (error) {
-            console.error(error);
-        }
+        fetch("/api/send-email", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(formData),
+        });
     };
 
     return (
@@ -98,4 +98,6 @@ export default function Contact() {
             </div>
         </form>
     );
-}
+};
+
+export default Contact;
