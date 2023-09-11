@@ -12,10 +12,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'header': '#87A878',
+        'header': '#87A878',  /* , #A0BD95*/
         'secondary-font-color': '#FFEEE2',
-        'primary-button': '#143109',
-        'secondary-button': '#FFEEE2'
+        'primary-button': '#143109',  /*, #A0BD95*/
+        'secondary-button': '#FFEEE2' /*, #C5E7B8*/ 
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

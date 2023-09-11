@@ -11,6 +11,10 @@ import image4 from "../assets/Husko4modi.jpg";
 import image5 from "../assets/Husko5modi.jpg";
 import image6 from "../assets/Husko6modi.jpg";
 import image7 from "../assets/Husko7modi.jpg";
+import image8 from "../assets/Husko8modi.jpg";
+import image9 from "../assets/Husko9modi.jpg";
+import image10 from "../assets/Husko10modi.jpg";
+import image11 from "../assets/Husko11modi.jpg";
 
 export default function Gallery() {
     const [width, setWidth] = useState(0);
@@ -18,7 +22,18 @@ export default function Gallery() {
 
     const deployCarousel = carousel.current;
 
-    const images = [image1, image2, image5, image7, image6, image4];
+    const images = [
+        image1,
+        image2,
+        image5,
+        image7,
+        image6,
+        image4,
+        image8,
+        image9,
+        image10,
+        image11,
+    ];
     let key = 0;
 
     useEffect(() => {

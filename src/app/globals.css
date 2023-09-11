@@ -6,6 +6,6 @@ body {
   margin: 0;
   padding: 0;
   /* height: 100%; */
-  background-color: rgb(255, 238, 226);
+  background-color: rgb(255, 238, 226) ; /*, mint-cream: #F2F7F2 , #F0F0F0*/ 
   color: rgb(13, 2, 33);
 }

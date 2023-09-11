@@ -87,7 +87,7 @@ export default function DefaultCard() {
             href: "/features",
             first: "Lawn Maintenance",
             second: "Our team of skilled professionals is dedicated to keeping your lawn in pristine condition. From regular mowing and edging to weed control and fertilization, we'll ensure your grass stays healthy and manicured throughout the seasons.",
-            picture: "/lawn_maint-pic.jpg",
+            picture: "/lawn_maintance2.jpg",
         },
         {
             id: 2,
@@ -101,28 +101,28 @@ export default function DefaultCard() {
             href: "/features",
             first: "Mulching and Bed Maintenance",
             second: "Enhance the beauty of your flower beds and garden areas with our top-quality mulching services. Our team will apply a fresh layer of mulch, preventing weed growth, retaining moisture, and providing an attractive backdrop for your plants.",
-            picture: "/husko3.png",
+            picture: "/mulching.jpg",
         },
         {
             id: 4,
             href: "/features",
             first: "Seasonal Cleanup",
             second: "Let us handle the demanding task of seasonal cleanups. We'll remove fallen leaves, clear debris, and prepare your garden for the changing weather, ensuring a clean and organized outdoor space year-round.",
-            picture: "/husko1.png",
+            picture: "/seasonal.jpg",
         },
         {
             id: 5,
             href: "/features",
             first: "Yard Clean-Ups",
             second: "Revitalize your outdoor space with our expert yard clean-up services. From clearing debris to trimming, we'll transform your yard into a pristine oasis. Get a fresh start today!",
-            picture: "/irrigation_system_pic.jpg",
+            picture: "/cleanupYard.jpg",
         },
         {
             id: 6,
             href: "/features",
             first: "Landscape Design",
             second: "Looking to transform your backyard into an oasis? Our skilled designers will collaborate with you to create a customized landscape design that suits your preferences and complements the existing architecture, ensuring a breathtaking and inviting outdoor space.",
-            picture: "/landscape_design_pic.jpg",
+            picture: "/landscapeDesign.jpg",
         },
     ];
 

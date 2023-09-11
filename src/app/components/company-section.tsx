@@ -1,8 +1,8 @@
 const Company = () => {
     return (
-        <section className=" dark:bg-gray-900 antialiased">
-            <div className=" px-4 max-w-screen-xl  py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
-                <div className="max-w-2xl mx-auto text-center">
+        <section className="bg-white shadow-lg lg:mx-32 rounded-md dark:bg-gray-900">
+            <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+                <div className="mx-auto max-w-screen-sm">
                     <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
                         Who We Work With
                     </h2>

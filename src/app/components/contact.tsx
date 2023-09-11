@@ -17,8 +17,6 @@ const Contact = () => {
             message: message,
         };
 
-        console.log("Before fetch", formData);
-
         fetch("/api/send-email", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
@@ -33,11 +31,11 @@ const Contact = () => {
 
     return (
         <form
-            className="py-10 px-4 mx-auto md:px-6 lg:px-8 max-w-7xl"
+            className="px-4 mx-auto md:px-6 lg:px-8 max-w-7xl"
             id="contact"
             onSubmit={handleOnSubmit}
         >
-            <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <div className="pb-4 lg:pb-16 px-4 mx-auto max-w-screen-md">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
                     Contact Us
                 </h2>
@@ -104,7 +102,7 @@ const Contact = () => {
                     <div className="flex justify-center">
                         <button
                             type="submit"
-                            className="py-3 px-5 text-sm font-medium text-center rounded-lg bg-gray-50 sm:w-fit hover:bg-primary-800 focus:ring-2 focus:outline-none focus:ring-green-700 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                            className="py-3 px-5 text-sm font-medium text-center rounded-lg bg-white sm:w-fit hover:bg-primary-800 focus:ring-2 focus:outline-none focus:ring-green-700 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                         >
                             Send message
                         </button>
