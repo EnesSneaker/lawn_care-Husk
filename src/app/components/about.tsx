@@ -28,7 +28,7 @@ export default function About() {
                 <div className="w-full lg:w-8/12 ">
                     <img
                         className="w-full h-full"
-                        src="/About.jpg"
+                        src="/aboutUs.jpg"
                         alt="A group of People"
                     />
                 </div>
