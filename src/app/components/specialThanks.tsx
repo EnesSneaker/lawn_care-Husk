@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const ThanksSection = () => {
     return (
-        <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+        <div className="bg-white py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
             <Image
                 className="w-full dark:hidden"
                 src="/Weisskopfseeadler.jpg"
@@ -24,7 +24,7 @@ const ThanksSection = () => {
                 </p>
                 <Link
                     href="#contact"
-                    className="inline-flex items-center bg-white hover:bg-primary-800 focus:ring-2 focus:ring-green-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900"
+                    className="inline-flex items-center bg-secondary-button hover:bg-primary-800 focus:ring-2 focus:ring-green-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900"
                 >
                     Get in touch
                     <svg

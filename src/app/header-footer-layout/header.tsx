@@ -21,7 +21,7 @@ export default function Header() {
                             |
                         </div>
                         <a
-                            href="email:alanspreciselawn@gmail.com"
+                            href="mailto:alanspreciselawn@gmail.com"
                             className="mr-3 text-sm dark:text-white hover:underline flex items-center"
                         >
                             <span>alanspreciselawn@gmail.com</span>

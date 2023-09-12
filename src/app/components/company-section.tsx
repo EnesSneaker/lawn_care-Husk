@@ -1,17 +1,15 @@
 const Company = () => {
     return (
-        <section className="bg-white shadow-lg lg:mx-32 rounded-md dark:bg-gray-900">
-            <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-                <div className="mx-auto max-w-screen-sm">
-                    <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
-                        Who We Work With
-                    </h2>
-                    <p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
-                        We&apos;re here to serve both individual homeowners and
-                        businesses, bringing expert lawn care solutions to meet
-                        your unique needs.
-                    </p>
-                </div>
+        <div className="bg-white shadow-lg lg:mx-50 rounded-md dark:bg-gray-900 max-w-screen-xl mx-auto">
+            <section className="py-8 px-4 text-center lg:py-16 lg:px-6">
+                <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
+                    Who We Work With
+                </h2>
+                <p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
+                    We&apos;re here to serve both individual homeowners and
+                    businesses, bringing expert lawn care solutions to meet your
+                    unique needs.
+                </p>
 
                 <div className="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-2">
                     <div className="space-y-4">
@@ -43,8 +41,8 @@ const Company = () => {
                         </p>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     );
 };
 

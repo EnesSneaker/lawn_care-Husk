@@ -19,22 +19,26 @@ const Testimonials = () => {
                                 Thriving Garden Owner
                             </h3>
                             <p className="my-4">
-                                &quot;Choosing Alan&apos;s precise LLC for my
-                                lawn care was a game-changer. They transformed
-                                my struggling garden into a lush paradise. Their
-                                expertise and care have truly revitalized my
-                                outdoor space. I&apos;m impressed by their
-                                commitment and attention to detail.&quot;
+                                &quot;We chose Alan for property clean up and
+                                freshening prior to home sale, he was prompt,
+                                communicative, professional and reasonably
+                                priced. He did everything he promised and more,
+                                quickly, efficiently and alerting us to any
+                                concerns or additional needs promptly. I
+                                can&apos;t thank him enough for all of his
+                                efforts. He truly went above and beyond.
+                                I&apos;d give him 6 stars if that was an
+                                option.&quot;
                             </p>
                         </blockquote>
                         <figcaption className="flex justify-center items-center space-x-3">
                             <img
                                 className="w-9 h-9 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
+                                src="/Fritz_Mid.png"
                                 alt="profile picture"
                             />
                             <div className="space-y-0.5 font-medium dark:text-white text-left">
-                                <div>John D.</div>
+                                <div>Paul E.</div>
                                 <div className="text-sm font-light text-gray-500 dark:text-gray-400">
                                     Homeowner
                                 </div>
@@ -47,22 +51,23 @@ const Testimonials = () => {
                                 Picture-Perfect Lawn Enthusiast
                             </h3>
                             <p className="my-4">
-                                &quot;I can&apos;t thank Alan&apos;s precise
-                                lawn care LLC enough for the incredible job
-                                they&apos;ve done with my lawn. The precision of
-                                their work is astounding. They&apos;re more than
-                                just professionals, they&apos;re artists. My
-                                lawn now stands out as a masterpiece.&quot;
+                                &quot;So very satisfied with Alan&apos;s Precise
+                                Lawn Care. I highly recommend him. Alan is very
+                                professional and provides excellent service. He
+                                treats my lawn/landscaping as if it&apos;s his
+                                own. Very friendly, personable, reliable and
+                                capable!. He ensures customer is happy…never
+                                realized how nice my property could look!&quot;
                             </p>
                         </blockquote>
                         <figcaption className="flex justify-center items-center space-x-3">
                             <img
                                 className="w-9 h-9 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
+                                src="/Rosanna_Mid.png"
                                 alt="profile picture"
                             />
                             <div className="space-y-0.5 font-medium dark:text-white text-left">
-                                <div>Sarah P.</div>
+                                <div>Rosanne L.</div>
                                 <div className="text-sm font-light text-gray-500 dark:text-gray-400">
                                     Homeowner
                                 </div>
@@ -75,22 +80,20 @@ const Testimonials = () => {
                                 Stress-Free Homeowner
                             </h3>
                             <p className="my-4">
-                                &quot;The peace of mind Alan&apos;s precise lawn
-                                care LLC has given me is priceless. From their
-                                budget-friendly prices to the impeccable
-                                maintenance, they&apos;ve taken away the hassle
-                                of lawn care. My weekends are now mine to enjoy
-                                while my lawn thrives.&quot;
+                                &quot;Alan does an amazing job on my lawn! He is
+                                always on time, super efficient, detail
+                                oriented, and easy to work with! Would highly
+                                recommend his services!&quot;
                             </p>
                         </blockquote>
                         <figcaption className="flex justify-center items-center space-x-3">
                             <img
                                 className="w-9 h-9 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
+                                src="/Jennifer_Mid.png"
                                 alt="profile picture"
                             />
                             <div className="space-y-0.5 font-medium dark:text-white text-left">
-                                <div>David L.</div>
+                                <div>Jennifer B.</div>
                                 <div className="text-sm font-light text-gray-500 dark:text-gray-400">
                                     Homeowner
                                 </div>
@@ -103,22 +106,26 @@ const Testimonials = () => {
                                 Customer for Life
                             </h3>
                             <p className="my-4">
-                                &quot;I&apos;m proud to say that I&apos;ve been
-                                a loyal customer of Alan&apos;s precise lawn
-                                care LLC for years. Their consistent,
-                                high-quality service and genuine care for my
-                                lawn have earned my trust. With them, I know my
-                                lawn is in the best hands.&quot;
+                                &quot;I Hired Alan for a Spring Cleanup. He was
+                                thorough and went the extra mile to make it look
+                                good. Worked thru the rain to get it done
+                                without complaint. Local business, very
+                                professional guy and a solid value for the
+                                money. You don&apos;t want a big faceless
+                                corporation to maintain your lawn- you want
+                                Alan. I will be using Alan for everything lawn
+                                related this summer. I highly recommend you give
+                                him a shot&quot;
                             </p>
                         </blockquote>
                         <figcaption className="flex justify-center items-center space-x-3">
                             <img
                                 className="w-9 h-9 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
+                                src="/Mathias_Mid.png"
                                 alt="profile picture"
                             />
                             <div className="space-y-0.5 font-medium dark:text-white text-left">
-                                <div>Emily R.</div>
+                                <div>David R.</div>
                                 <div className="text-sm font-light text-gray-500 dark:text-gray-400">
                                     Homeowner
                                 </div>
