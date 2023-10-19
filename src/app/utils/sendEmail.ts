@@ -8,7 +8,7 @@ const sendEmail = async ({ subject, to, text, email }: any,) => { // subject = n
     sgMail.setApiKey(SENDGRID_API_KEY!);
     
     
-    subject = `${subject} need helps`
+    subject = `${subject} needs help`
     text = `Email: ${email} \n 
             Message: ${text}`;
 
