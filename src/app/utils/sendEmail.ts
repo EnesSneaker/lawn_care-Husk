@@ -14,7 +14,7 @@ const sendEmail = async ({ subject, to, text, email }: any,) => { // subject = n
 
     const msg = {
         to,
-        from: 'technik.helfer@outlook.com',
+        from: 'info@alan-precise-lawn-care.com',
         subject,
         text
     }
