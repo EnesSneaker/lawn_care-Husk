@@ -9,10 +9,12 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
     const form = {
         subject: name,
-        to: ALAN_EMAIL,
+        to: process.env.TO_EMAIL,
         text: message,
         email: email
     }
+
+    console.log(form);
 
     try {
         await sendEmail(form);
