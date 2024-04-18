@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { toast } from "react-toastify";
+import twilio from "twilio";
 
 const Contact = () => {
     const [name, setName] = useState("");
@@ -27,6 +28,12 @@ const Contact = () => {
             setMessage("");
             toast.success("Message sent successfully.");
         });
+
+        fetch("/api/send-sms", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(formData),
+        }).then(() => {});
     };
 
     return (
