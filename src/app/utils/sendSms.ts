@@ -13,8 +13,7 @@ const sendSms = async ({ subject, to, text, email }: any,) => { // subject = nam
         .create({
             from: "+18556955208",
             to: "+19732707126",
-
-            body: "Sta ima? Dobio si mail od " + email,
+            body: "Enes says: " + "\n" + email + "\n\n" + subject + "\n"  + text,
         })
         //Send back a response
         .then((message) => {
