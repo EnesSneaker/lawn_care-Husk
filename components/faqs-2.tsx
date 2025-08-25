@@ -12,27 +12,27 @@ export default function FAQsTwo() {
   const faqItems = [
     {
       id: "item-1",
-      question: "How often should I water my lawn?",
+      question: "What are the benefits of mulching my flower beds?",
       answer:
-        "Proper watering is crucial for a healthy lawn. In general, it is recommended to water deeply but infrequently. Water your lawn 1-2 times per week, providing around 1 inch of water each time. Adjust the frequency based on weather conditions and the needs of your specific grass type.",
+        "Mulching not only enhances the look of your garden, but it also helps retain moisture, suppress weeds, and regulate soil temperature. Our mulching service includes a fresh layer application for optimal plant health and curb appeal.",
     },
     {
       id: "item-2",
-      question: "How can I prevent weeds from invading my lawn?",
+      question: "When is the best time for seasonal cleanup?",
       answer:
-        "Weed control starts with maintaining a healthy lawn. Regularly mowing at the appropriate height, fertilizing properly, and watering correctly can help your grass outcompete weeds. Additionally, applying pre-emergent herbicides and manually removing weeds can be effective weed prevention strategies.",
+        "We recommend seasonal cleanups in both spring and fall. In spring, we clear out winter debris to prep your lawn and garden. In fall, we remove leaves and prepare your landscape for winter—keeping your property clean year-round.",
     },
     {
       id: "item-3",
-      question: "When should I aerate my lawn?",
+      question: "Why is gutter cleaning important before winter?",
       answer:
-        "Aeration involves creating small holes in the soil to improve air circulation, water absorption, and nutrient uptake. The best time to aerate your lawn is during the growing season when the grass is actively growing. For cool-season grasses, early spring or fall is ideal. For warm-season grasses, late spring or early summer is recommended.",
+        "Clogged gutters can lead to ice dams, roof leaks, and foundation issues. Our gutter cleaning service ensures water flows freely by removing leaves, debris, and buildup—preventing costly damage during the colder months.",
     },
     {
       id: "item-4",
-      question: "How often should I mow my lawn?",
+      question: "How does your snow removal service work?",
       answer:
-        "The frequency of lawn mowing depends on the growth rate of your grass and the desired height. As a general rule, aim to mow your lawn when the grass reaches about one-third higher than its recommended mowing height. For most lawns, this means mowing once every 1-2 weeks during the growing season.",
+        "We monitor local weather and respond quickly during snow events. Our team clears driveways, walkways, and parking areas efficiently and applies de-icing treatments when needed—keeping your home or business safe and accessible.",
     },
   ];
 

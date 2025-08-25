@@ -67,15 +67,15 @@ export default function FeaturesSection() {
 
             <div className="grid items-center gap-6 sm:grid-cols-5">
               <Card className="overflow-hidden px-6 sm:col-span-2">
-                <div className="mask-b-from-75% -mx-2 -mt-2 px-2 pt-6">
-                  <Image
-                    src="/mulching.jpg"
-                    className="rounded-[15px] shadow dark:hidden"
-                    alt="lawn maintainance"
-                    width={1207}
-                    height={929}
-                  />
-                </div>
+                {/* <div className="mask-b-from-75% -mx-2 -mt-2 px-2 pt-6"> */}
+                <Image
+                  src="/mulching.jpg"
+                  className="rounded-[15px] shadow dark:hidden"
+                  alt="lawn maintainance"
+                  width={1207}
+                  height={929}
+                />
+                {/* </div> */}
               </Card>
               <div className="max-w-md sm:col-span-3">
                 <h3 className="text-foreground text-lg font-semibold">
@@ -92,15 +92,15 @@ export default function FeaturesSection() {
 
             <div className="grid items-center gap-6 sm:grid-cols-5">
               <Card className="overflow-hidden px-6 sm:col-span-2">
-                <div className="mask-b-from-75% -mx-2 -mt-2 px-2 pt-6">
-                  <Image
-                    src="/seasonal.jpg"
-                    className="rounded-[15px] shadow dark:hidden"
-                    alt="lawn maintainance"
-                    width={1207}
-                    height={929}
-                  />
-                </div>
+                {/* <div className="mask-b-from-75% -mx-2 -mt-2 px-2 pt-6"> */}
+                <Image
+                  src="/seasonal.jpg"
+                  className="rounded-[15px] shadow dark:hidden"
+                  alt="lawn maintainance"
+                  width={1207}
+                  height={929}
+                />
+                {/* </div> */}
               </Card>
               <div className="max-w-md sm:col-span-3">
                 <h3 className="text-foreground text-lg font-semibold">
