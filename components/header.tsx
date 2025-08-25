@@ -36,7 +36,7 @@ export const HeroHeader = () => {
                 aria-label="home"
                 className="flex items-center space-x-2 text-xl font-semibold"
               >
-                Alan's Precise Lawn Care
+                Alan&apos;s Precise Lawn Care
               </Link>
 
               <button

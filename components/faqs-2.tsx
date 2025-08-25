@@ -72,7 +72,7 @@ export default function FAQsTwo() {
           </Accordion>
 
           <p className="text-center text-muted-foreground mt-6">
-            Didn't find the answer you are looking for?{" "}
+            Didn&apos;t find the answer you are looking for?{" "}
             <Link
               href="mailto:alanspreciselawn@gmail.com"
               className="text-primary font-medium hover:underline"

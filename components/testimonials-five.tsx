@@ -42,7 +42,7 @@ export default function TestimonialSection5() {
               {testimonials.map((testimonial, index) => (
                 <CarouselItem key={index}>
                   <blockquote className="text-foreground text-xl">
-                    <p>"{testimonial.text}"</p>
+                    <p>&quot;{testimonial.text}&quot;</p>
                     <footer className="mt-6 flex flex-col items-center justify-center">
                       <Avatar className="ring-foreground/10 size-12 border border-transparent shadow ring-1">
                         <AvatarImage

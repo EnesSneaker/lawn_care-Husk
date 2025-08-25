@@ -10,7 +10,7 @@ export default function ContentSection5() {
             About Us
           </h2>
           <p>
-            Welcome to Alan's precise Lawn Care! We are passionate about
+            Welcome to Alan&apos;s precise Lawn Care! We are passionate about
             creating and maintaining beautiful, healthy lawns. With years of
             experience, our dedicated team delivers top-quality lawn care
             services tailored to your needs. From mowing to fertilizing, we use

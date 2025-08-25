@@ -21,7 +21,7 @@ export default function FooterSection() {
     <footer className="bg-muted py-8">
       <div className="mx-auto max-w-5xl px-6">
         <Link href="/" aria-label="go home" className="mx-auto block size-fit">
-          Alan's Precise Lawn Care
+          Alan&apos;s Precise Lawn Care
         </Link>
 
         <div className="my-8 flex flex-wrap justify-center gap-6">
@@ -38,7 +38,7 @@ export default function FooterSection() {
 
         <span className="text-muted-foreground block text-center text-sm">
           {" "}
-          © 2025 Alan's Lawn Care™. All Rights Reserved.
+          © 2025 Alan&apos;s Lawn Care™. All Rights Reserved.
         </span>
       </div>
     </footer>

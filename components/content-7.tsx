@@ -15,8 +15,8 @@ export default function ContentSection() {
             <p className="text-muted-foreground">
               We value our senior citizens, military personnel and veterans. We
               are pleased to offer a special 5% discount on all our services.
-              It's our way of saying 'thank you' for your dedication and
-              commitment.
+              It&apos;s our way of saying &apos;thank you&apos; for your
+              dedication and commitment.
             </p>
           </div>
 

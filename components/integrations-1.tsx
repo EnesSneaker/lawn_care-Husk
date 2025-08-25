@@ -4,12 +4,6 @@ import { ChevronRight, Icon } from "lucide-react";
 import Link from "next/link";
 import * as React from "react";
 import {
-  Gemini,
-  Replit,
-  MagicUI,
-  VSCodium,
-  MediaWiki,
-  GooglePaLM,
   SVGDollarSymbol,
   SVGHomeSymbol,
   SVGUsersSymbol,
@@ -29,9 +23,9 @@ export default function IntegrationsSection() {
             </h2>
             <p className="text-muted-foreground mt-6">
               With a commitment to unbeatable affordability, I offer top-tier
-              services that prioritize your home's well-being. I treat every
-              project with the care I would give to my own space, ensuring that
-              your home shines from the inside out.
+              services that prioritize your home&apos;s well-being. I treat
+              every project with the care I would give to my own space, ensuring
+              that your home shines from the inside out.
             </p>
           </div>
 
@@ -73,7 +67,7 @@ export default function IntegrationsSection() {
 
             <IntegrationCard
               title="Eco-Friendly Approach"
-              description="Embracing environmentally conscious practices to enhance your lawn's health while minimizing ecological impact, reflecting a responsible and sustainable approach to lawn care."
+              description="Embracing environmentally conscious practices to enhance your lawn`s health while minimizing ecological impact, reflecting a responsible and sustainable approach to lawn care."
             >
               <SVGEcoSymbol />
             </IntegrationCard>

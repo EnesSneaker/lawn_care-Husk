@@ -19,7 +19,7 @@ export default function Features1() {
             Who We Work With
           </h2>
           <p className="mt-4">
-            We're here to serve both individual homeowners and businesses,
+            We&apos;re here to serve both individual homeowners and businesses,
             bringing expert lawn care solutions to meet your unique needs.
           </p>
         </div>
@@ -34,9 +34,9 @@ export default function Features1() {
 
             <CardContent>
               <p className="text-sm">
-                Enhance your home's beauty with our expert lawn care services.
-                We specialize in creating lush, vibrant lawns that your family
-                can enjoy all year round.
+                Enhance your home&apos;s beauty with our expert lawn care
+                services. We specialize in creating lush, vibrant lawns that
+                your family can enjoy all year round.
               </p>
             </CardContent>
           </Card>
@@ -53,7 +53,7 @@ export default function Features1() {
               <p className="text-sm">
                 Partner with us for comprehensive lawn care solutions tailored
                 to your business needs. We provide efficient landscaping
-                services to elevate your commercial property's appeal.
+                services to elevate your commercial property&apos;s appeal.
               </p>
             </CardContent>
           </Card>

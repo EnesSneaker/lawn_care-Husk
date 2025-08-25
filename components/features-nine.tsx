@@ -39,8 +39,8 @@ export default function FeaturesSection() {
                 <p className="text-muted-foreground mt-3 text-balance">
                   Our team of skilled professionals is dedicated to keeping your
                   lawn in pristine condition. From regular mowing and edging to
-                  weed control and fertilization, we'll ensure your grass stays
-                  healthy and manicured throughout the seasons.
+                  weed control and fertilization, we&apos;ll ensure your grass
+                  stays healthy and manicured throughout the seasons.
                 </p>
               </div>
             </div>
@@ -64,9 +64,9 @@ export default function FeaturesSection() {
                 </h3>
                 <p className="text-muted-foreground mt-3 text-balance">
                   We understand the importance of well-maintained plants and
-                  shrubs. With our expert trimming and pruning services, we'll
-                  shape your greenery, promote healthy growth, and enhance the
-                  overall aesthetic appeal of your garden.
+                  shrubs. With our expert trimming and pruning services,
+                  we&apos;ll shape your greenery, promote healthy growth, and
+                  enhance the overall aesthetic appeal of your garden.
                 </p>
               </div>
             </div>
@@ -119,10 +119,10 @@ export default function FeaturesSection() {
                   Seasonal Cleanup
                 </h3>
                 <p className="text-muted-foreground mt-3 text-balance">
-                  Let us handle the demanding task of seasonal cleanups. We'll
-                  remove fallen leaves, clear debris, and prepare your garden
-                  for the changing weather, ensuring a clean and organized
-                  outdoor space year-round.
+                  Let us handle the demanding task of seasonal cleanups.
+                  We&apos;ll remove fallen leaves, clear debris, and prepare
+                  your garden for the changing weather, ensuring a clean and
+                  organized outdoor space year-round.
                 </p>
               </div>
             </div>
@@ -203,7 +203,7 @@ export default function FeaturesSection() {
                   ice dams to roof and foundation damage. Our gutter cleaning
                   service clears out leaves, debris, and buildup before freezing
                   temperatures hit—ensuring water flows freely away from your
-                  property. It's a simple step that prevents costly repairs
+                  property. It&apos;s a simple step that prevents costly repairs
                   later on.
                 </p>
               </div>
