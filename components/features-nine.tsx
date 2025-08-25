@@ -20,10 +20,7 @@ export default function FeaturesSection() {
           </div>
           <div className="mt-16 space-y-12">
             <div className="grid items-center gap-6 sm:grid-cols-5">
-              <Card
-                variant="soft"
-                className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip"
-              >
+              <Card className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip">
                 <Image
                   src="/lawn_maintance2.jpg"
                   className="rounded-[15px] shadow dark:hidden"
@@ -46,10 +43,7 @@ export default function FeaturesSection() {
             </div>
 
             <div className="grid items-center gap-6 sm:grid-cols-5">
-              <Card
-                variant="soft"
-                className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip"
-              >
+              <Card className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip">
                 <Image
                   src="/trimming_pic.jpg"
                   className="rounded-[15px] shadow dark:hidden"
@@ -72,10 +66,7 @@ export default function FeaturesSection() {
             </div>
 
             <div className="grid items-center gap-6 sm:grid-cols-5">
-              <Card
-                variant="soft"
-                className="overflow-hidden px-6 sm:col-span-2"
-              >
+              <Card className="overflow-hidden px-6 sm:col-span-2">
                 <div className="mask-b-from-75% -mx-2 -mt-2 px-2 pt-6">
                   <Image
                     src="/mulching.jpg"
@@ -100,10 +91,7 @@ export default function FeaturesSection() {
             </div>
 
             <div className="grid items-center gap-6 sm:grid-cols-5">
-              <Card
-                variant="soft"
-                className="overflow-hidden px-6 sm:col-span-2"
-              >
+              <Card className="overflow-hidden px-6 sm:col-span-2">
                 <div className="mask-b-from-75% -mx-2 -mt-2 px-2 pt-6">
                   <Image
                     src="/seasonal.jpg"
@@ -127,10 +115,7 @@ export default function FeaturesSection() {
               </div>
             </div>
             <div className="grid items-center gap-6 sm:grid-cols-5">
-              <Card
-                variant="soft"
-                className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip"
-              >
+              <Card className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip">
                 <Image
                   src="/landscape_design_pic.jpg"
                   className="rounded-[15px] shadow dark:hidden"
@@ -153,10 +138,7 @@ export default function FeaturesSection() {
               </div>
             </div>
             <div className="grid items-center gap-6 sm:grid-cols-5">
-              <Card
-                variant="soft"
-                className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip"
-              >
+              <Card className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip">
                 <Image
                   src="/snow_removal.jpg"
                   className="rounded-[15px] shadow dark:hidden"
@@ -182,10 +164,7 @@ export default function FeaturesSection() {
             </div>
 
             <div className="grid items-center gap-6 sm:grid-cols-5">
-              <Card
-                variant="soft"
-                className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip"
-              >
+              <Card className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip">
                 <Image
                   src="/gutter_cleaning.jpg"
                   className="rounded-[15px] shadow dark:hidden"
@@ -210,10 +189,7 @@ export default function FeaturesSection() {
             </div>
 
             <div className="grid items-center gap-6 sm:grid-cols-5">
-              <Card
-                variant="soft"
-                className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip"
-              >
+              <Card className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip">
                 <Image
                   src="/winterization_services.jpg"
                   className="rounded-[15px] shadow dark:hidden"
@@ -238,10 +214,7 @@ export default function FeaturesSection() {
             </div>
 
             <div className="grid items-center gap-6 sm:grid-cols-5">
-              <Card
-                variant="soft"
-                className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip"
-              >
+              <Card className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip">
                 <Image
                   src="/commercial_services.jpg"
                   className="rounded-[15px] shadow dark:hidden"
