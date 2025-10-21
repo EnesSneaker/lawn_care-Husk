@@ -238,6 +238,33 @@ export default function FeaturesSection() {
                 </p>
               </div>
             </div>
+            <div className="grid items-center gap-6 sm:grid-cols-5">
+              <Card className="overflow-hidden p-6 sm:col-span-2 sm:overflow-clip">
+                <Image
+                  src="/sealcot_driveway.jpg"
+                  className="rounded-[15px] shadow dark:hidden"
+                  alt="sealcoat driveway"
+                  width={1207}
+                  height={929}
+                />
+              </Card>
+              <div className="max-w-md sm:col-span-3">
+                <h3 className="text-foreground text-lg font-semibold">
+                  Driveway Sealcoating
+                </h3>
+                <p className="text-muted-foreground mt-3 text-balance">
+                  Protect and enhance your asphalt driveway with our
+                  professional sealcoating service. Over time, sunlight, rain,
+                  and vehicle traffic can cause cracks, fading, and
+                  deterioration. Our high-quality sealant forms a durable
+                  barrier against water, oil, and UV damage—extending the life
+                  of your pavement while giving it a smooth, deep-black finish.
+                  Whether it’s routine maintenance or restoring curb appeal,
+                  we’ll help your driveway look its best and last for years to
+                  come.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

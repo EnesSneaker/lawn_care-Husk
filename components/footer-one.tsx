@@ -36,10 +36,20 @@ export default function FooterSection() {
           ))}
         </div>
 
-        <span className="text-muted-foreground block text-center text-sm">
-          {" "}
-          © 2025 Alan&apos;s Lawn Care™. All Rights Reserved.
-        </span>
+        <div className="text-center text-sm text-muted-foreground space-y-1">
+          <span>© 2025 Alan&apos;s Lawn Care™. All Rights Reserved.</span>
+          <div>
+            created by{" "}
+            <Link
+              href="https://www.teb-solution.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary font-medium"
+            >
+              teb-solution with love
+            </Link>
+          </div>
+        </div>
       </div>
     </footer>
   );
