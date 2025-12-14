@@ -1,23 +1,31 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { HeroHeader } from "./header";
 import { ChevronRight, CirclePlay } from "lucide-react";
-import Image from "next/image";
 
 export default function HeroSection() {
   return (
     <>
       <HeroHeader />
+
       <main className="overflow-hidden">
         <section className="bg-linear-to-b to-muted from-background">
-          <div className="relative py-36">
-            <div className="relative z-10 mx-auto w-full max-w-5xl px-6">
-              <div className="md:w-1/2">
+          <div className="py-36">
+            <div className="relative z-10 mx-auto w-full max-w-6xl px-6">
+              {/* HERO GRID */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                {/* LEFT: TEXT */}
                 <div>
                   <h1 className="max-w-md text-balance text-5xl font-medium md:text-6xl">
-                    Lush lawns. Expert care. Guaranteed.
+                    Lush lawns.
+                    <br />
+                    Expert care.
+                    <br />
+                    Guaranteed.
                   </h1>
+
                   <p className="text-muted-foreground my-8 max-w-2xl text-balance text-xl">
                     Enjoy a lush, healthy lawn without the hassle. Our expert
                     team delivers reliable, professional care—with guaranteed
@@ -31,8 +39,8 @@ export default function HeroSection() {
                         <ChevronRight className="opacity-50" />
                       </Link>
                     </Button>
+
                     <Button
-                      key={2}
                       asChild
                       size="lg"
                       variant="outline"
@@ -45,21 +53,28 @@ export default function HeroSection() {
                     </Button>
                   </div>
                 </div>
-              </div>
-            </div>
 
-            <div className="perspective-near mt-24 translate-x-12 md:absolute md:-right-6 md:bottom-16 md:left-1/2 md:top-40 md:mt-0 md:translate-x-0">
-              <div className="before:border-foreground/5 before:bg-foreground/5 relative h-full before:absolute before:-inset-x-4 before:bottom-7 before:top-0 before:skew-x-6 before:rounded-[calc(var(--radius)+1rem)] before:border">
-                <div className="bg-background rounded-(--radius) shadow-foreground/10 ring-foreground/5 relative h-full -translate-y-12 skew-x-6 overflow-hidden border border-transparent shadow-md ring-1">
-                  <Image
-                    src="/About.jpg"
-                    alt="app screen"
-                    width="2880"
-                    height="1842"
-                    className="object-top-left size-full object-cover"
-                  />
+                {/* RIGHT: AWARD */}
+                <div className="flex justify-center md:justify-start md:mt-6">
+                  <div className="bg-white rounded-xl border shadow-xl ring-1 ring-black/5 p-6 w-72 md:w-80">
+                    <Image
+                      src="/HuskoGoogleAwardNew.jpg"
+                      alt="Alan's Precise Lawn Care – Top 3 Lawn Care Service (Google Reviews 2025)"
+                      width={2880}
+                      height={1842}
+                      className="w-full h-auto object-contain"
+                      priority
+                    />
+
+                    <p className="mt-3 text-center text-sm text-muted-foreground">
+                      Top 3 Lawn Care Service
+                      <br />
+                      Google Reviews · 2025
+                    </p>
+                  </div>
                 </div>
               </div>
+              {/* END GRID */}
             </div>
           </div>
         </section>
