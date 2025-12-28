@@ -1,18 +1,50 @@
+"use client";
+
+import { useState, useRef } from "react";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import Link from "next/link";
 
 export default function ContactSection() {
+  const [result, setResult] = useState("");
+  const [loading, setLoading] = useState(false);
+  const formRef = useRef<HTMLFormElement | null>(null);
+
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setLoading(true);
+    setResult("");
+
+    const formData = new FormData(formRef.current!);
+    formData.append(
+      "access_key",
+      process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY!
+    );
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setResult("Thanks! Your message has been sent ✅");
+        formRef.current?.reset(); // ✅ SAFE
+      } else {
+        setResult("Something went wrong ❌ Please try again.");
+      }
+    } catch {
+      setResult("Network error ❌ Please try again later.");
+    }
+
+    setLoading(false);
+  };
+
   return (
     <section className="bg-muted py-15 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-4xl px-4 lg:px-0">
@@ -21,81 +53,58 @@ export default function ContactSection() {
           Reach out to us and lets turn your garden dreams into a stunning
           reality.
         </p>
+
         <div className="mt-12 grid gap-12 lg:grid-cols-5">
+          {/* LEFT */}
           <div className="grid grid-cols-2 lg:col-span-2 lg:block lg:space-y-12">
-            <div className="flex flex-col justify-between space-y-6">
-              <div>
-                <h2 className="mb-3 text-lg font-semibold">Contact</h2>
-                <Link
-                  href="mailto:alanspreciselawn@gmail.com"
-                  className="text-primary text-lg hover:underline"
-                >
-                  alanspreciselawn@gmail.com
-                </Link>
-                <p className="mt-3 text-sm hover:underline">
-                  <a href="tel:(973) 270-7126">(973) 270-7126</a>
-                </p>
-              </div>
+            <div>
+              <h2 className="mb-3 text-lg font-semibold">Contact</h2>
+              <Link
+                href="mailto:alanspreciselawn@gmail.com"
+                className="text-primary text-lg hover:underline"
+              >
+                alanspreciselawn@gmail.com
+              </Link>
+              <p className="mt-3 text-sm hover:underline">
+                <a href="tel:(973) 270-7126">(973) 270-7126</a>
+              </p>
             </div>
           </div>
 
-          <form action="" className="@container lg:col-span-3">
+          {/* FORM */}
+          <form
+            ref={formRef}
+            onSubmit={onSubmit}
+            className="@container lg:col-span-3"
+          >
+            {/* Honeypot */}
+            <input type="checkbox" name="botcheck" className="hidden" />
+
             <Card className="p-8 sm:p-12">
-              <div className="**:[&>label]:block mt-2 space-y-6 *:space-y-3">
-                <div className="@md:grid-cols-2 grid gap-3 *:space-y-3">
+              <div className="mt-2 space-y-6">
+                <div className="@md:grid-cols-2 grid gap-3">
                   <div>
-                    <Label htmlFor="name" className="space-y-2">
-                      Full name
-                    </Label>
-                    <Input type="text" id="name" required />
+                    <Label htmlFor="name">Full name</Label>
+                    <Input id="name" name="name" required />
                   </div>
                   <div>
                     <Label htmlFor="email">Work Email</Label>
-                    <Input type="email" id="email" required />
+                    <Input id="email" name="email" type="email" required />
                   </div>
                 </div>
-                {/*
+
                 <div>
-                  <Label htmlFor="country">Country/Region</Label>
-                  <Select>
-                    <SelectTrigger>
-                      <SelectValue placeholder="Select a country" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="1">DR Congo</SelectItem>
-                      <SelectItem value="2">United States</SelectItem>
-                      <SelectItem value="3">France</SelectItem>
-                    </SelectContent>
-                  </Select>
+                  <Label htmlFor="message">Message</Label>
+                  <Textarea id="message" name="message" rows={3} required />
                 </div>
-                */}
-                {/* 
-                <div className="@md:grid-cols-2 grid gap-3 *:space-y-3">
-                  <div>
-                    <Label htmlFor="website">Company Website</Label>
-                    <Input type="url" id="website" />
-                  </div>
-                  <div>
-                    <Label htmlFor="job">Job function</Label>
-                    <Select>
-                      <SelectTrigger>
-                        <SelectValue placeholder="Select a job function" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="1">Finance</SelectItem>
-                        <SelectItem value="2">Education</SelectItem>
-                        <SelectItem value="3">Legal</SelectItem>
-                        <SelectItem value="4">More</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-                </div>
-                */}
-                <div>
-                  <Label htmlFor="msg">Message</Label>
-                  <Textarea id="msg" rows={3} />
-                </div>
-                <Button>Submit</Button>
+
+                <Button type="submit" disabled={loading}>
+                  {loading ? "Sending..." : "Submit"}
+                </Button>
+
+                {result && (
+                  <p className="text-sm mt-2 text-muted-foreground">{result}</p>
+                )}
               </div>
             </Card>
           </form>
