@@ -6,11 +6,11 @@ export default function StatsSection() {
           <h2 className="text-4xl font-medium lg:text-5xl">
             Alan&apos;s precise lawn care in numbers
           </h2>
-          <p>
+          {/* <p>
             Gemini is evolving to be more than just the models. It supports an
             entire to the APIs and platforms helping developers and businesses
             innovate.
-          </p>
+          </p> */}
         </div>
 
         <div className="grid gap-12 divide-y *:text-center md:grid-cols-3 md:gap-2 md:divide-x md:divide-y-0">
